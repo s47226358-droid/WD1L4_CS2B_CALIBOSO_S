@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <title> Student Grades </title>
+       
+        <!-- Link to the external CSS file -->
+        <link rel="stylesheet" href="css/styles.css">
+
+        <!-- Link to the external JavaScript file -->
+        <script src="js/script.js" defer></script>
+    </head>
+
+    <body>
+        <main class="container">
+
+            <!-- Heading for the enrolled students table -->
+            <h1> List of Enrolled Students </h1>
+
+            <!-- Display the original list of students and grades -->
+            <table>
+                <thead>
+                    <tr>
+                        <th> Student Name </th>
+                        <th> Grade </th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td> Anna Reyes </td>
+                        <td> 92 </td>
+                    </tr>
+                    <tr>
+                        <td> Ben Santos </td>
+                        <td> 85 </td>
+                    </tr>
+                    <tr>
+                        <td> Carla Cruz </td>
+                        <td> 78 </td>
+                    </tr>
+                    <tr>
+                        <td> David Lim </td>
+                        <td> 97 </td>
+                    </tr>
+                    <tr>
+                        <td> Ella Ramos </td>
+                        <td> 74 </td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <!-- Button to display the grade equivalents -->
+            <button type="button" onclick="showGradeEquivalent()">
+                Show Grade Equivalent
+            </button>
+
+            <!--JavaScript inserts the grade results here -->
+            <div id="result"></div>
+        </main>
+    </body>
+</html>
